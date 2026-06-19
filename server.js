@@ -136,13 +136,13 @@ app.put("/notes/:id", async (req, res) => {
 */
 
 // First DB TEST
-app.get("/test-db", async (req, res) => {
+/* app.get("/test-db", async (req, res) => {
   const note = await Note.create({
     title: "My first MongoDB note",
   });
 
   res.send(note);
-});
+}); */
 
 /* All the Routes using noteControllers
 app.get("/notes", getNotes);
